@@ -34,7 +34,7 @@ showtext_auto()
 showtext_opts(dpi = 320)
 
 theme_set(theme_minimal(base_family = font,
-                        base_size = 12))
+                        base_size = 14))
 
 source("function/graph_function.r")
 source("function/clean_function.r")
@@ -107,7 +107,7 @@ total_population <- population_state |>
 
 ```
 
-::: {.valuebox}
+::: valuebox
 Total population
 
 `r comma(total_population)`
@@ -168,9 +168,9 @@ pal <- colorNumeric(
   domain = malaysia2$density)
 
 leaflet(malaysia2) %>%
-  addProviderTiles(providers$Stadia.AlidadeSmooth) %>% 
+  addTiles() |> 
   addPolygons(data = malaysia2,
-              fillOpacity = 0.7,
+              fillOpacity = 0.9,
               fillColor = ~pal(density), weight = 2,
               color = "gray", 
               dashArray = "3",
@@ -453,7 +453,6 @@ girafe(ggobj = graph11,
 
 ```
 
-
 # About
 
 ## Row {.flow}
@@ -462,6 +461,7 @@ girafe(ggobj = graph11,
 ::: card-header
 About
 :::
+
 ::: card-body
 📊 This dashboard presents population information about Malaysia, utilizing data from the 2020 Census by DOSM. It is created using [Quarto](https://quarto.org/docs/dashboards/) and **is not affiliated** with DOSM. The data used is available on the [DOSM publication page](https://www.dosm.gov.my/portal-main/publication).
 
@@ -470,7 +470,5 @@ About
 As Quarto dashboard is a newly released tool, I am currently testing it out. The source code for this dashboard can be found here:
 
 [<i class="bi bi-file-code"></i> Repository](https://github.com/zahiernasrudin/dosm_population_dashboard)
-
-
 :::
 :::
