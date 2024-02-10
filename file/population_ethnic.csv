@@ -1,0 +1,171 @@
+state,variable,gender,value,remark
+Malaysia,total,female,14662572,Ethnic
+Malaysia,bumiputra,female,10197719,Ethnic
+Malaysia,chinese,female,3374613,Ethnic
+Malaysia,indian,female,991347,Ethnic
+Malaysia,others,female,98893,Ethnic
+Malaysia,total,male,15093743,Ethnic
+Malaysia,bumiputra,male,10451814,Ethnic
+Malaysia,chinese,male,3517754,Ethnic
+Malaysia,indian,male,1007431,Ethnic
+Malaysia,others,male,116744,Ethnic
+Johor,total,female,1808374,Ethnic
+Johor,bumiputra,female,1090489,Ethnic
+Johor,chinese,female,589111,Ethnic
+Johor,indian,female,121474,Ethnic
+Johor,others,female,7300,Ethnic
+Johor,total,male,1882129,Ethnic
+Johor,bumiputra,male,1128685,Ethnic
+Johor,chinese,male,619541,Ethnic
+Johor,indian,male,122821,Ethnic
+Johor,others,male,11082,Ethnic
+Kedah,total,female,1018289,Ethnic
+Kedah,bumiputra,female,813954,Ethnic
+Kedah,chinese,female,125554,Ethnic
+Kedah,indian,female,66626,Ethnic
+Kedah,others,female,12155,Ethnic
+Kedah,total,male,1019791,Ethnic
+Kedah,bumiputra,male,818802,Ethnic
+Kedah,chinese,male,125046,Ethnic
+Kedah,indian,male,62429,Ethnic
+Kedah,others,male,13514,Ethnic
+Kelantan,total,female,879958,Ethnic
+Kelantan,bumiputra,female,850231,Ethnic
+Kelantan,chinese,female,21752,Ethnic
+Kelantan,indian,female,2428,Ethnic
+Kelantan,others,female,5547,Ethnic
+Kelantan,total,male,877241,Ethnic
+Kelantan,bumiputra,male,846600,Ethnic
+Kelantan,chinese,male,22924,Ethnic
+Kelantan,indian,male,2277,Ethnic
+Kelantan,others,male,5440,Ethnic
+Melaka,total,female,457426,Ethnic
+Melaka,bumiputra,female,327922,Ethnic
+Melaka,chinese,female,100907,Ethnic
+Melaka,indian,female,26253,Ethnic
+Melaka,others,female,2344,Ethnic
+Melaka,total,male,469935,Ethnic
+Melaka,bumiputra,male,336713,Ethnic
+Melaka,chinese,male,104332,Ethnic
+Melaka,indian,male,26106,Ethnic
+Melaka,others,male,2784,Ethnic
+Negeri Sembilan,total,female,557980,Ethnic
+Negeri Sembilan,bumiputra,female,353830,Ethnic
+Negeri Sembilan,chinese,female,122105,Ethnic
+Negeri Sembilan,indian,female,79783,Ethnic
+Negeri Sembilan,others,female,2262,Ethnic
+Negeri Sembilan,total,male,574249,Ethnic
+Negeri Sembilan,bumiputra,male,362591,Ethnic
+Negeri Sembilan,chinese,male,126351,Ethnic
+Negeri Sembilan,indian,male,81850,Ethnic
+Negeri Sembilan,others,male,3457,Ethnic
+Pahang,total,female,738391,Ethnic
+Pahang,bumiputra,female,601618,Ethnic
+Pahang,chinese,female,105910,Ethnic
+Pahang,indian,female,27387,Ethnic
+Pahang,others,female,3476,Ethnic
+Pahang,total,male,774839,Ethnic
+Pahang,bumiputra,male,624849,Ethnic
+Pahang,chinese,male,115802,Ethnic
+Pahang,indian,male,28465,Ethnic
+Pahang,others,male,5723,Ethnic
+Pulau Pinang,total,female,788616,Ethnic
+Pulau Pinang,bumiputra,female,352184,Ethnic
+Pulau Pinang,chinese,female,354396,Ethnic
+Pulau Pinang,indian,female,77011,Ethnic
+Pulau Pinang,others,female,5025,Ethnic
+Pulau Pinang,total,male,811258,Ethnic
+Pulau Pinang,bumiputra,male,363715,Ethnic
+Pulau Pinang,chinese,male,363966,Ethnic
+Pulau Pinang,indian,male,78481,Ethnic
+Pulau Pinang,others,male,5096,Ethnic
+Perak,total,female,1177242,Ethnic
+Perak,bumiputra,female,716585,Ethnic
+Perak,chinese,female,317131,Ethnic
+Perak,indian,female,138135,Ethnic
+Perak,others,female,5391,Ethnic
+Perak,total,male,1187595,Ethnic
+Perak,bumiputra,male,723067,Ethnic
+Perak,chinese,male,326496,Ethnic
+Perak,indian,male,132674,Ethnic
+Perak,others,male,5358,Ethnic
+Perlis,total,female,139116,Ethnic
+Perlis,bumiputra,female,123890,Ethnic
+Perlis,chinese,female,9824,Ethnic
+Perlis,indian,female,2522,Ethnic
+Perlis,others,female,2880,Ethnic
+Perlis,total,male,139339,Ethnic
+Perlis,bumiputra,male,123365,Ethnic
+Perlis,chinese,male,10656,Ethnic
+Perlis,indian,male,2602,Ethnic
+Perlis,others,male,2716,Ethnic
+Selangor,total,female,3152000,Ethnic
+Selangor,bumiputra,female,1911040,Ethnic
+Selangor,chinese,female,862213,Ethnic
+Selangor,indian,female,355959,Ethnic
+Selangor,others,female,22788,Ethnic
+Selangor,total,male,3278435,Ethnic
+Selangor,bumiputra,male,1984840,Ethnic
+Selangor,chinese,male,893968,Ethnic
+Selangor,indian,male,370058,Ethnic
+Selangor,others,male,29569,Ethnic
+Terengganu,total,female,556708,Ethnic
+Terengganu,bumiputra,female,543624,Ethnic
+Terengganu,chinese,female,11122,Ethnic
+Terengganu,indian,female,1121,Ethnic
+Terengganu,others,female,841,Ethnic
+Terengganu,total,male,566330,Ethnic
+Terengganu,bumiputra,male,551955,Ethnic
+Terengganu,chinese,male,12044,Ethnic
+Terengganu,indian,male,979,Ethnic
+Terengganu,others,male,1352,Ethnic
+Sabah,total,female,1273267,Ethnic
+Sabah,bumiputra,female,1133825,Ethnic
+Sabah,chinese,female,117259,Ethnic
+Sabah,indian,female,2607,Ethnic
+Sabah,others,female,19576,Ethnic
+Sabah,total,male,1335075,Ethnic
+Sabah,bumiputra,male,1179646,Ethnic
+Sabah,chinese,male,131661,Ethnic
+Sabah,indian,male,3355,Ethnic
+Sabah,others,male,20413,Ethnic
+Sarawak,total,female,1143969,Ethnic
+Sarawak,bumiputra,female,869661,Ethnic
+Sarawak,chinese,female,269227,Ethnic
+Sarawak,indian,female,2295,Ethnic
+Sarawak,others,female,2786,Ethnic
+Sarawak,total,male,1184428,Ethnic
+Sarawak,bumiputra,male,892698,Ethnic
+Sarawak,chinese,male,285395,Ethnic
+Sarawak,indian,male,2787,Ethnic
+Sarawak,others,male,3548,Ethnic
+W.P. Kuala Lumpur,total,female,875225,Ethnic
+W.P. Kuala Lumpur,bumiputra,female,420371,Ethnic
+W.P. Kuala Lumpur,chinese,female,362272,Ethnic
+W.P. Kuala Lumpur,indian,female,86616,Ethnic
+W.P. Kuala Lumpur,others,female,5966,Ethnic
+W.P. Kuala Lumpur,total,male,898441,Ethnic
+W.P. Kuala Lumpur,bumiputra,male,425968,Ethnic
+W.P. Kuala Lumpur,chinese,male,374889,Ethnic
+W.P. Kuala Lumpur,indian,male,91483,Ethnic
+W.P. Kuala Lumpur,others,male,6101,Ethnic
+W.P. Labuan,total,female,41155,Ethnic
+W.P. Labuan,bumiputra,female,34801,Ethnic
+W.P. Labuan,chinese,female,5479,Ethnic
+W.P. Labuan,indian,female,453,Ethnic
+W.P. Labuan,others,female,422,Ethnic
+W.P. Labuan,total,male,43133,Ethnic
+W.P. Labuan,bumiputra,male,37870,Ethnic
+W.P. Labuan,chinese,male,4364,Ethnic
+W.P. Labuan,indian,male,438,Ethnic
+W.P. Labuan,others,male,461,Ethnic
+W.P. Putrajaya,total,female,54856,Ethnic
+W.P. Putrajaya,bumiputra,female,53694,Ethnic
+W.P. Putrajaya,chinese,female,351,Ethnic
+W.P. Putrajaya,indian,female,677,Ethnic
+W.P. Putrajaya,others,female,134,Ethnic
+W.P. Putrajaya,total,male,51525,Ethnic
+W.P. Putrajaya,bumiputra,male,50450,Ethnic
+W.P. Putrajaya,chinese,male,319,Ethnic
+W.P. Putrajaya,indian,male,626,Ethnic
+W.P. Putrajaya,others,male,130,Ethnic

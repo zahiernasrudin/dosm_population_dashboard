@@ -1,0 +1,273 @@
+state,variable,gender,value,remark
+Malaysia,total,female,15481168,Religion
+Malaysia,islam,female,9898941,Religion
+Malaysia,christianity,female,1449353,Religion
+Malaysia,buddhism,female,2934331,Religion
+Malaysia,hinduism,female,898196,Religion
+Malaysia,others,female,137516,Religion
+Malaysia,others,female,121766,Religion
+Malaysia,others,female,41065,Religion
+Malaysia,total,male,16966217,Religion
+Malaysia,islam,male,10711119,Religion
+Malaysia,christianity,male,1491696,Religion
+Malaysia,buddhism,male,3132453,Religion
+Malaysia,hinduism,male,1071275,Religion
+Malaysia,others,male,147636,Religion
+Malaysia,others,male,150033,Religion
+Malaysia,others,male,262005,Religion
+Johor,total,female,1868363,Religion
+Johor,islam,female,1117837,Religion
+Johor,christianity,female,57723,Religion
+Johor,buddhism,female,552283,Religion
+Johor,hinduism,female,114337,Religion
+Johor,others,female,15457,Religion
+Johor,others,female,10725,Religion
+Johor,others,female,1,Religion
+Johor,total,male,2141307,Religion
+Johor,islam,male,1276842,Religion
+Johor,christianity,male,63743,Religion
+Johor,buddhism,male,598521,Religion
+Johor,hinduism,male,168380,Religion
+Johor,others,male,16895,Religion
+Johor,others,male,16923,Religion
+Johor,others,male,3,Religion
+Kedah,total,female,1044141,Religion
+Kedah,islam,female,826036,Religion
+Kedah,christianity,female,7929,Religion
+Kedah,buddhism,female,130096,Religion
+Kedah,hinduism,female,63314,Religion
+Kedah,others,female,4799,Religion
+Kedah,others,female,335,Religion
+Kedah,others,female,11632,Religion
+Kedah,total,male,1087286,Religion
+Kedah,islam,male,846584,Religion
+Kedah,christianity,male,8344,Religion
+Kedah,buddhism,male,133880,Religion
+Kedah,hinduism,male,62136,Religion
+Kedah,others,male,5017,Religion
+Kedah,others,male,954,Religion
+Kedah,others,male,30371,Religion
+Kelantan,total,female,892438,Religion
+Kelantan,islam,female,856366,Religion
+Kelantan,christianity,female,3120,Religion
+Kelantan,buddhism,female,25038,Religion
+Kelantan,hinduism,female,1587,Religion
+Kelantan,others,female,1582,Religion
+Kelantan,others,female,3797,Religion
+Kelantan,others,female,948,Religion
+Kelantan,total,male,900063,Religion
+Kelantan,islam,male,855897,Religion
+Kelantan,christianity,male,3730,Religion
+Kelantan,buddhism,male,25687,Religion
+Kelantan,hinduism,male,2234,Religion
+Kelantan,others,male,1725,Religion
+Kelantan,others,male,4521,Religion
+Kelantan,others,male,6269,Religion
+Melaka,total,female,473486,Religion
+Melaka,islam,female,332724,Religion
+Melaka,christianity,female,13187,Religion
+Melaka,buddhism,female,93885,Religion
+Melaka,hinduism,female,24477,Religion
+Melaka,others,female,2130,Religion
+Melaka,others,female,834,Religion
+Melaka,others,female,6249,Religion
+Melaka,total,male,524942,Religion
+Melaka,islam,male,354977,Religion
+Melaka,christianity,male,13095,Religion
+Melaka,buddhism,male,97832,Religion
+Melaka,hinduism,male,28163,Religion
+Melaka,others,male,2716,Religion
+Melaka,others,male,1411,Religion
+Melaka,others,male,26748,Religion
+Negeri Sembilan,total,female,576000,Religion
+Negeri Sembilan,islam,female,360204,Religion
+Negeri Sembilan,christianity,female,16032,Religion
+Negeri Sembilan,buddhism,female,115565,Religion
+Negeri Sembilan,hinduism,female,74423,Religion
+Negeri Sembilan,others,female,4764,Religion
+Negeri Sembilan,others,female,4863,Religion
+Negeri Sembilan,others,female,149,Religion
+Negeri Sembilan,total,male,623974,Religion
+Negeri Sembilan,islam,male,391351,Religion
+Negeri Sembilan,christianity,male,15291,Religion
+Negeri Sembilan,buddhism,male,122718,Religion
+Negeri Sembilan,hinduism,male,83131,Religion
+Negeri Sembilan,others,male,5022,Religion
+Negeri Sembilan,others,male,5581,Religion
+Negeri Sembilan,others,male,880,Religion
+Pahang,total,female,747144,Religion
+Pahang,islam,female,574867,Religion
+Pahang,christianity,female,10932,Religion
+Pahang,buddhism,female,101888,Religion
+Pahang,hinduism,female,24436,Religion
+Pahang,others,female,4850,Religion
+Pahang,others,female,30163,Religion
+Pahang,others,female,8,Religion
+Pahang,total,male,844151,Religion
+Pahang,islam,male,642538,Religion
+Pahang,christianity,male,13232,Religion
+Pahang,buddhism,male,113789,Religion
+Pahang,hinduism,male,34573,Religion
+Pahang,others,male,5556,Religion
+Pahang,others,male,34449,Religion
+Pahang,others,male,14,Religion
+Pulau Pinang,total,female,847851,Religion
+Pulau Pinang,islam,female,382746,Religion
+Pulau Pinang,christianity,female,40449,Religion
+Pulau Pinang,buddhism,female,319945,Religion
+Pulau Pinang,hinduism,female,68067,Religion
+Pulau Pinang,others,female,21056,Religion
+Pulau Pinang,others,female,4415,Religion
+Pulau Pinang,others,female,11173,Religion
+Pulau Pinang,total,male,892554,Religion
+Pulau Pinang,islam,male,409441,Religion
+Pulau Pinang,christianity,male,34896,Religion
+Pulau Pinang,buddhism,male,334863,Religion
+Pulau Pinang,hinduism,male,77804,Religion
+Pulau Pinang,others,male,20969,Religion
+Pulau Pinang,others,male,5606,Religion
+Pulau Pinang,others,male,8975,Religion
+Perak,total,female,1195803,Religion
+Perak,islam,female,708054,Religion
+Perak,christianity,female,40152,Religion
+Perak,buddhism,female,296969,Religion
+Perak,hinduism,female,120189,Religion
+Perak,others,female,14906,Religion
+Perak,others,female,15508,Religion
+Perak,others,female,25,Religion
+Perak,total,male,1300238,Religion
+Perak,islam,male,735979,Religion
+Perak,christianity,male,35434,Religion
+Perak,buddhism,male,305942,Religion
+Perak,hinduism,male,121649,Religion
+Perak,others,male,16363,Religion
+Perak,others,male,17207,Religion
+Perak,others,male,67664,Religion
+Perlis,total,female,142540,Religion
+Perlis,islam,female,125646,Religion
+Perlis,christianity,female,783,Religion
+Perlis,buddhism,female,12846,Religion
+Perlis,hinduism,female,1772,Religion
+Perlis,others,female,247,Religion
+Perlis,others,female,37,Religion
+Perlis,others,female,1209,Religion
+Perlis,total,male,142345,Religion
+Perlis,islam,male,124483,Religion
+Perlis,christianity,male,887,Religion
+Perlis,buddhism,male,13353,Religion
+Perlis,hinduism,male,1847,Religion
+Perlis,others,male,278,Religion
+Perlis,others,male,34,Religion
+Perlis,others,male,1463,Religion
+Selangor,total,female,3283668,Religion
+Selangor,islam,female,2002853,Religion
+Selangor,christianity,female,168925,Religion
+Selangor,buddhism,female,724959,Religion
+Selangor,hinduism,female,322290,Religion
+Selangor,others,female,42135,Religion
+Selangor,others,female,20660,Religion
+Selangor,others,female,1846,Religion
+Selangor,total,male,3710755,Religion
+Selangor,islam,male,2270871,Religion
+Selangor,christianity,male,175157,Religion
+Selangor,buddhism,male,787595,Religion
+Selangor,hinduism,male,398800,Religion
+Selangor,others,male,45752,Religion
+Selangor,others,male,27388,Religion
+Selangor,others,male,5192,Religion
+Terengganu,total,female,561575,Religion
+Terengganu,islam,female,548497,Religion
+Terengganu,christianity,female,1249,Religion
+Terengganu,buddhism,female,10484,Religion
+Terengganu,hinduism,female,922,Religion
+Terengganu,others,female,193,Religion
+Terengganu,others,female,81,Religion
+Terengganu,others,female,149,Religion
+Terengganu,total,male,587865,Religion
+Terengganu,islam,male,570267,Religion
+Terengganu,christianity,male,1679,Religion
+Terengganu,buddhism,male,12898,Religion
+Terengganu,hinduism,male,1881,Religion
+Terengganu,others,male,228,Religion
+Terengganu,others,male,175,Religion
+Terengganu,others,male,737,Religion
+Sabah,total,female,1638979,Religion
+Sabah,islam,female,1135957,Religion
+Sabah,christianity,female,411901,Religion
+Sabah,buddhism,female,81525,Religion
+Sabah,hinduism,female,2160,Religion
+Sabah,others,female,1689,Religion
+Sabah,others,female,4572,Religion
+Sabah,others,female,1175,Religion
+Sabah,total,male,1779806,Religion
+Sabah,islam,male,1243259,Religion
+Sabah,christianity,male,431833,Religion
+Sabah,buddhism,male,91716,Religion
+Sabah,hinduism,male,2788,Religion
+Sabah,others,male,2083,Religion
+Sabah,others,male,5728,Religion
+Sabah,others,male,2399,Religion
+Sarawak,total,female,1184116,Religion
+Sarawak,islam,female,398636,Religion
+Sarawak,christianity,female,605116,Religion
+Sarawak,buddhism,female,151256,Religion
+Sarawak,hinduism,female,1460,Religion
+Sarawak,others,female,6486,Religion
+Sarawak,others,female,17352,Religion
+Sarawak,others,female,3810,Religion
+Sarawak,total,male,1269561,Religion
+Sarawak,islam,male,439919,Religion
+Sarawak,christianity,male,624537,Religion
+Sarawak,buddhism,male,163423,Religion
+Sarawak,hinduism,male,1961,Religion
+Sarawak,others,male,6923,Religion
+Sarawak,others,male,20037,Religion
+Sarawak,others,male,12761,Religion
+W.P. Kuala Lumpur,total,female,923206,Religion
+W.P. Kuala Lumpur,islam,female,439300,Religion
+W.P. Kuala Lumpur,christianity,female,64876,Religion
+W.P. Kuala Lumpur,buddhism,female,312993,Religion
+W.P. Kuala Lumpur,hinduism,female,77919,Religion
+W.P. Kuala Lumpur,others,female,17086,Religion
+W.P. Kuala Lumpur,others,female,8359,Religion
+W.P. Kuala Lumpur,others,female,2673,Religion
+W.P. Kuala Lumpur,total,male,1058906,Religion
+W.P. Kuala Lumpur,islam,male,458337,Religion
+W.P. Kuala Lumpur,christianity,male,62819,Religion
+W.P. Kuala Lumpur,buddhism,male,326626,Religion
+W.P. Kuala Lumpur,hinduism,male,85007,Religion
+W.P. Kuala Lumpur,others,male,17959,Religion
+W.P. Kuala Lumpur,others,male,9949,Religion
+W.P. Kuala Lumpur,others,male,98209,Religion
+W.P. Labuan,total,female,46230,Religion
+W.P. Labuan,islam,female,34961,Religion
+W.P. Labuan,christianity,female,6507,Religion
+W.P. Labuan,buddhism,female,4331,Religion
+W.P. Labuan,hinduism,female,308,Religion
+W.P. Labuan,others,female,96,Religion
+W.P. Labuan,others,female,27,Religion
+W.P. Labuan,others,female,0,Religion
+W.P. Labuan,total,male,48890,Religion
+W.P. Labuan,islam,male,38499,Religion
+W.P. Labuan,christianity,male,6611,Religion
+W.P. Labuan,buddhism,male,3345,Religion
+W.P. Labuan,hinduism,male,304,Religion
+W.P. Labuan,others,male,92,Religion
+W.P. Labuan,others,male,39,Religion
+W.P. Labuan,others,male,0,Religion
+W.P. Putrajaya,total,female,55628,Religion
+W.P. Putrajaya,islam,female,54257,Religion
+W.P. Putrajaya,christianity,female,472,Religion
+W.P. Putrajaya,buddhism,female,268,Religion
+W.P. Putrajaya,hinduism,female,535,Religion
+W.P. Putrajaya,others,female,40,Religion
+W.P. Putrajaya,others,female,38,Religion
+W.P. Putrajaya,others,female,18,Religion
+W.P. Putrajaya,total,male,53574,Religion
+W.P. Putrajaya,islam,male,51875,Religion
+W.P. Putrajaya,christianity,male,408,Religion
+W.P. Putrajaya,buddhism,male,265,Religion
+W.P. Putrajaya,hinduism,male,617,Religion
+W.P. Putrajaya,others,male,58,Religion
+W.P. Putrajaya,others,male,31,Religion
+W.P. Putrajaya,others,male,320,Religion

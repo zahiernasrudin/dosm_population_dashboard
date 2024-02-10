@@ -1,0 +1,205 @@
+state,variable,gender,value,remark
+Malaysia,total,female,11321341,Marital Status
+Malaysia,nevermarried,female,3521074,Marital Status
+Malaysia,married,female,6773590,Marital Status
+Malaysia,widowed,female,693949,Marital Status
+Malaysia,separatedordivorced,female,246786,Marital Status
+Malaysia,unknown,female,85942,Marital Status
+Malaysia,total,male,12554204,Marital Status
+Malaysia,nevermarried,male,4870702,Marital Status
+Malaysia,married,male,6922838,Marital Status
+Malaysia,widowed,male,252287,Marital Status
+Malaysia,separatedordivorced,male,146643,Marital Status
+Malaysia,unknown,male,361734,Marital Status
+Johor,total,female,1397937,Marital Status
+Johor,nevermarried,female,428081,Marital Status
+Johor,married,female,859194,Marital Status
+Johor,widowed,female,81367,Marital Status
+Johor,separatedordivorced,female,28730,Marital Status
+Johor,unknown,female,565,Marital Status
+Johor,total,male,1652423,Marital Status
+Johor,nevermarried,male,694677,Marital Status
+Johor,married,male,907283,Marital Status
+Johor,widowed,male,32045,Marital Status
+Johor,separatedordivorced,male,17934,Marital Status
+Johor,unknown,male,484,Marital Status
+Kedah,total,female,749066,Marital Status
+Kedah,nevermarried,female,208495,Marital Status
+Kedah,married,female,455784,Marital Status
+Kedah,widowed,female,59893,Marital Status
+Kedah,separatedordivorced,female,13262,Marital Status
+Kedah,unknown,female,11632,Marital Status
+Kedah,total,male,779372,Marital Status
+Kedah,nevermarried,male,268465,Marital Status
+Kedah,married,male,455089,Marital Status
+Kedah,widowed,male,18625,Marital Status
+Kedah,separatedordivorced,male,6869,Marital Status
+Kedah,unknown,male,30324,Marital Status
+Kelantan,total,female,631373,Marital Status
+Kelantan,nevermarried,female,227513,Marital Status
+Kelantan,married,female,329697,Marital Status
+Kelantan,widowed,female,58148,Marital Status
+Kelantan,separatedordivorced,female,12884,Marital Status
+Kelantan,unknown,female,3131,Marital Status
+Kelantan,total,male,624033,Marital Status
+Kelantan,nevermarried,male,277272,Marital Status
+Kelantan,married,male,317557,Marital Status
+Kelantan,widowed,male,14498,Marital Status
+Kelantan,separatedordivorced,male,6396,Marital Status
+Kelantan,unknown,male,8310,Marital Status
+Melaka,total,female,360969,Marital Status
+Melaka,nevermarried,female,120951,Marital Status
+Melaka,married,female,200382,Marital Status
+Melaka,widowed,female,25910,Marital Status
+Melaka,separatedordivorced,female,7049,Marital Status
+Melaka,unknown,female,6677,Marital Status
+Melaka,total,male,403506,Marital Status
+Melaka,nevermarried,male,159428,Marital Status
+Melaka,married,male,203856,Marital Status
+Melaka,widowed,male,8831,Marital Status
+Melaka,separatedordivorced,male,3731,Marital Status
+Melaka,unknown,male,27660,Marital Status
+Negeri Sembilan,total,female,429706,Marital Status
+Negeri Sembilan,nevermarried,female,131748,Marital Status
+Negeri Sembilan,married,female,256059,Marital Status
+Negeri Sembilan,widowed,female,30965,Marital Status
+Negeri Sembilan,separatedordivorced,female,9105,Marital Status
+Negeri Sembilan,unknown,female,1829,Marital Status
+Negeri Sembilan,total,male,468192,Marital Status
+Negeri Sembilan,nevermarried,male,183269,Marital Status
+Negeri Sembilan,married,male,264788,Marital Status
+Negeri Sembilan,widowed,male,11587,Marital Status
+Negeri Sembilan,separatedordivorced,male,5137,Marital Status
+Negeri Sembilan,unknown,male,3411,Marital Status
+Pahang,total,female,535382,Marital Status
+Pahang,nevermarried,female,161384,Marital Status
+Pahang,married,female,321936,Marital Status
+Pahang,widowed,female,38424,Marital Status
+Pahang,separatedordivorced,female,10625,Marital Status
+Pahang,unknown,female,3013,Marital Status
+Pahang,total,male,619365,Marital Status
+Pahang,nevermarried,male,248651,Marital Status
+Pahang,married,male,346952,Marital Status
+Pahang,widowed,male,14605,Marital Status
+Pahang,separatedordivorced,male,6079,Marital Status
+Pahang,unknown,male,3078,Marital Status
+Pulau Pinang,total,female,669752,Marital Status
+Pulau Pinang,nevermarried,female,202980,Marital Status
+Pulau Pinang,married,female,388127,Marital Status
+Pulau Pinang,widowed,female,42981,Marital Status
+Pulau Pinang,separatedordivorced,female,15884,Marital Status
+Pulau Pinang,unknown,female,19780,Marital Status
+Pulau Pinang,total,male,692538,Marital Status
+Pulau Pinang,nevermarried,male,244847,Marital Status
+Pulau Pinang,married,male,390565,Marital Status
+Pulau Pinang,widowed,male,17265,Marital Status
+Pulau Pinang,separatedordivorced,male,8972,Marital Status
+Pulau Pinang,unknown,male,30889,Marital Status
+Perak,total,female,918200,Marital Status
+Perak,nevermarried,female,288922,Marital Status
+Perak,married,female,514901,Marital Status
+Perak,widowed,female,89730,Marital Status
+Perak,separatedordivorced,female,21048,Marital Status
+Perak,unknown,female,3599,Marital Status
+Perak,total,male,999218,Marital Status
+Perak,nevermarried,male,379427,Marital Status
+Perak,married,male,508408,Marital Status
+Perak,widowed,male,27686,Marital Status
+Perak,separatedordivorced,male,11973,Marital Status
+Perak,unknown,male,71724,Marital Status
+Perlis,total,female,114535,Marital Status
+Perlis,nevermarried,female,39777,Marital Status
+Perlis,married,female,59394,Marital Status
+Perlis,widowed,female,11280,Marital Status
+Perlis,separatedordivorced,female,2514,Marital Status
+Perlis,unknown,female,1570,Marital Status
+Perlis,total,male,112079,Marital Status
+Perlis,nevermarried,male,48063,Marital Status
+Perlis,married,male,57486,Marital Status
+Perlis,widowed,male,3372,Marital Status
+Perlis,separatedordivorced,male,1479,Marital Status
+Perlis,unknown,male,1679,Marital Status
+Selangor,total,female,2276189,Marital Status
+Selangor,nevermarried,female,672549,Marital Status
+Selangor,married,female,1465270,Marital Status
+Selangor,widowed,female,71874,Marital Status
+Selangor,separatedordivorced,female,53403,Marital Status
+Selangor,unknown,female,13093,Marital Status
+Selangor,total,male,2657268,Marital Status
+Selangor,nevermarried,male,1002742,Marital Status
+Selangor,married,male,1534206,Marital Status
+Selangor,widowed,male,30327,Marital Status
+Selangor,separatedordivorced,male,38282,Marital Status
+Selangor,unknown,male,51711,Marital Status
+Terengganu,total,female,400970,Marital Status
+Terengganu,nevermarried,female,130968,Marital Status
+Terengganu,married,female,225980,Marital Status
+Terengganu,widowed,female,36140,Marital Status
+Terengganu,separatedordivorced,female,7331,Marital Status
+Terengganu,unknown,female,551,Marital Status
+Terengganu,total,male,419363,Marital Status
+Terengganu,nevermarried,male,179383,Marital Status
+Terengganu,married,male,226452,Marital Status
+Terengganu,widowed,male,9483,Marital Status
+Terengganu,separatedordivorced,male,2779,Marital Status
+Terengganu,unknown,male,1266,Marital Status
+Sabah,total,female,1139044,Marital Status
+Sabah,nevermarried,female,374105,Marital Status
+Sabah,married,female,677374,Marital Status
+Sabah,widowed,female,52024,Marital Status
+Sabah,separatedordivorced,female,21565,Marital Status
+Sabah,unknown,female,13976,Marital Status
+Sabah,total,male,1244413,Marital Status
+Sabah,nevermarried,male,506131,Marital Status
+Sabah,married,male,680787,Marital Status
+Sabah,widowed,male,23368,Marital Status
+Sabah,separatedordivorced,male,14542,Marital Status
+Sabah,unknown,male,19585,Marital Status
+Sarawak,total,female,924088,Marital Status
+Sarawak,nevermarried,female,301663,Marital Status
+Sarawak,married,female,532416,Marital Status
+Sarawak,widowed,female,61970,Marital Status
+Sarawak,separatedordivorced,female,24234,Marital Status
+Sarawak,unknown,female,3805,Marital Status
+Sarawak,total,male,989405,Marital Status
+Sarawak,nevermarried,male,399391,Marital Status
+Sarawak,married,male,539506,Marital Status
+Sarawak,widowed,male,24192,Marital Status
+Sarawak,separatedordivorced,male,13561,Marital Status
+Sarawak,unknown,male,12755,Marital Status
+W.P. Kuala Lumpur,total,female,704337,Marital Status
+W.P. Kuala Lumpur,nevermarried,female,210030,Marital Status
+W.P. Kuala Lumpur,married,female,444284,Marital Status
+W.P. Kuala Lumpur,widowed,female,30487,Marital Status
+W.P. Kuala Lumpur,separatedordivorced,female,16864,Marital Status
+W.P. Kuala Lumpur,unknown,female,2672,Marital Status
+W.P. Kuala Lumpur,total,male,825973,Marital Status
+W.P. Kuala Lumpur,nevermarried,male,257479,Marital Status
+W.P. Kuala Lumpur,married,male,446992,Marital Status
+W.P. Kuala Lumpur,widowed,male,15143,Marital Status
+W.P. Kuala Lumpur,separatedordivorced,male,8173,Marital Status
+W.P. Kuala Lumpur,unknown,male,98186,Marital Status
+W.P. Labuan,total,female,34237,Marital Status
+W.P. Labuan,nevermarried,female,11754,Marital Status
+W.P. Labuan,married,female,19792,Marital Status
+W.P. Labuan,widowed,female,1709,Marital Status
+W.P. Labuan,separatedordivorced,female,982,Marital Status
+W.P. Labuan,unknown,female,0,Marital Status
+W.P. Labuan,total,male,34870,Marital Status
+W.P. Labuan,nevermarried,male,13044,Marital Status
+W.P. Labuan,married,male,20323,Marital Status
+W.P. Labuan,widowed,male,942,Marital Status
+W.P. Labuan,separatedordivorced,male,561,Marital Status
+W.P. Labuan,unknown,male,0,Marital Status
+W.P. Putrajaya,total,female,35556,Marital Status
+W.P. Putrajaya,nevermarried,female,10154,Marital Status
+W.P. Putrajaya,married,female,23000,Marital Status
+W.P. Putrajaya,widowed,female,1047,Marital Status
+W.P. Putrajaya,separatedordivorced,female,1306,Marital Status
+W.P. Putrajaya,unknown,female,49,Marital Status
+W.P. Putrajaya,total,male,32186,Marital Status
+W.P. Putrajaya,nevermarried,male,8433,Marital Status
+W.P. Putrajaya,married,male,22588,Marital Status
+W.P. Putrajaya,widowed,male,318,Marital Status
+W.P. Putrajaya,separatedordivorced,male,175,Marital Status
+W.P. Putrajaya,unknown,male,672,Marital Status

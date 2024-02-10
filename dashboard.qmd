@@ -1,0 +1,476 @@
+---
+title: "Population: Malaysia"
+format: 
+  dashboard:
+    embed-resources: true
+editor: visual
+fig-height: 6
+fig-width: 8
+theme: 
+  - sandstone
+  - styles/custom.scss
+execute: 
+  message: false
+  warning: false
+---
+
+```{r}
+
+library(tidyverse)
+library(ggiraph)
+library(showtext)
+library(sf)
+library(glue)
+library(leaflet)
+library(tidytext)
+library(ggtext)
+library(scales)
+
+
+font_add_google(name = "Merriweather", family = "Merriweather")
+font <- "Merriweather"
+
+showtext_auto()
+showtext_opts(dpi = 320)
+
+theme_set(theme_minimal(base_family = font,
+                        base_size = 12))
+
+source("function/graph_function.r")
+source("function/clean_function.r")
+
+```
+
+```{r, include=F}
+#| label: load-data
+
+## Population by state, per yerar
+population_state <- read_csv("file/total_state_population.csv")
+
+## Malaysia map
+malaysia <- st_read("file/malaysia_map2.geojson")
+
+#population files
+list_of_files <- list.files(
+  path = "file",
+  recursive = TRUE,
+  pattern = "^population.*\\.csv$",  # Match files containing "population" in the name
+  full.names = TRUE
+)
+
+population_variable <- read_csv(list_of_files)
+
+```
+
+```{r, include=F}
+
+
+## Set graph default
+set_girafe_defaults(
+  opts_tooltip = opts_tooltip(css = "padding:3px;color:white;font-family: Merriwheather;font-size:0.8em;",
+                              offy = -20,
+                              offx = 0,
+                              placement = "container",
+                               use_fill = TRUE,
+                              opacity = 0.8)
+)
+
+
+## Get level of state (per population total)
+desired_level_total <- population_variable |> 
+  filter(variable != "total",
+         state != "Malaysia",
+         remark == "Age") |> 
+  group_by(state) |> 
+  summarise(value = sum(value)) |> 
+  ungroup() |> 
+  arrange(value) %>% 
+  pull(state) %>% 
+  unique()
+
+
+```
+
+# Overview {orientation="columns" scrolling="false"}
+
+## Column
+
+### Row {height = 20%}
+
+```{r}
+
+## To get total population
+total_population <- population_state |> 
+  filter(year == max(year)) |> 
+  summarise(population_total = sum(population_total)) |> 
+  pull()
+
+```
+
+::: {.valuebox}
+Total population
+
+`r comma(total_population)`
+:::
+
+### Row {height = 80%}
+
+```{r}
+#| title: "Malaysia population, by state"
+#| label: by_state
+
+
+## first graph
+graph1 <- population_state |>  
+  ggplot(aes(x = year, y = population_total, group = state)) +
+  geom_line_interactive(linewidth = 0.8) +
+  geom_point_interactive(aes(tooltip = label_graph, 
+                               data_id = state),
+                         size = 3) +
+  scale_y_continuous(breaks=c(2000000, 4000000, 6000000), 
+                     labels=c('2M', '4M', '6M')) +
+  labs(x = "",
+       y = "Population Total") +
+  theme(panel.grid.minor = element_blank(),
+    panel.grid.major = element_line(color = "grey", linewidth = 0.1),
+    plot.margin = unit(c(1, 0.5, 1, 0.5), "cm"),
+    legend.position = "none")
+
+
+
+girafe(ggobj = graph1,
+       options = list(width_svg = 8, height_svg = 6,
+    opts_hover_inv(css = "opacity:0.1;"),
+    opts_hover(css = "stroke-width:2;")
+  ))
+
+
+
+```
+
+## Column
+
+```{r}
+#| title: "Density"
+
+
+# Left join the density to map file
+malaysia2 <- malaysia %>%
+  left_join(population_state |> 
+              filter(year == 2020) |> 
+              select(state, population_total), by = c("shapeName" = "state")) %>% 
+  mutate(density = round(population_total / area_km2),
+         label = glue("{shapeName}:\n{scales::comma(density)}"))
+
+
+pal <- colorNumeric(
+  palette = c("#dcebfa", "#62adf0","#023e8a"),
+  domain = malaysia2$density)
+
+leaflet(malaysia2) %>%
+  addProviderTiles(providers$Stadia.AlidadeSmooth) %>% 
+  addPolygons(data = malaysia2,
+              fillOpacity = 0.7,
+              fillColor = ~pal(density), weight = 2,
+              color = "gray", 
+              dashArray = "3",
+              label = ~label,
+              labelOptions = labelOptions(
+    textsize = "15px",
+    direction = "auto"),
+              group = "shapeName",
+              highlightOptions = highlightOptions(
+                weight = 4,
+                color = "#666",
+                dashArray = "",
+                fillOpacity = 0.7,
+                bringToFront = TRUE)) %>% 
+  addLegend("bottomright", pal = pal, values = ~density,
+    title = "Population Density (2020)",
+    opacity = 1
+  )
+
+
+```
+
+# Demographics Ethnic {orientation="columns" scrolling="false"}
+
+## Column {width="45%"}
+
+### Row {.tabset}
+
+```{r}
+#| title: "Total population"
+
+population_ethnic_latest <- clean_function(population_data =  population_variable,
+                                           remark = "Ethnic",
+                                           factor_level =  c("Others", "Indian", 
+                                                "Chinese", "Bumiputra")
+                                           )
+
+
+graph2 <- population_graph(population_ethnic_latest, level = desired_level_total,
+                           variable = "Ethnic") 
+
+
+girafe(ggobj = graph2,
+       options = list(width_svg = 8, height_svg = 6))
+
+
+
+```
+
+```{r}
+#| title: "Ethnic Distribution"
+
+desired_level_ethnic <- desired_level_function(population_ethnic_latest, "Bumiputra") 
+
+graph4 <- distribution_graph(population_ethnic_latest, desired_level_ethnic, "Ethnic")
+  
+
+girafe(ggobj = graph4,
+       options = list(width_svg = 8, height_svg = 6))
+
+
+
+
+```
+
+## Column {width="55%"}
+
+```{r fig.height = 10, fig.width = 8}
+#| title: "Ethnic population (Ratio)"
+
+# Calculate gender ratio by state and variable
+population_ethnic_gender_ratio <- ratio_function(population_data = population_variable,
+                                                 remark = "Ethnic",
+                                                 factor_level = c("Others", "Indian", 
+                                                "Chinese", "Bumiputra")) 
+
+graph3 <- ratio_graph(population_ethnic_gender_ratio,
+                      variable = "Ethnic")
+  
+
+
+girafe(ggobj = graph3,
+       options = list(width_svg = 8, height_svg = 10))
+
+
+
+```
+
+# Demographics Age {orientation="columns" scrolling="false"}
+
+## Column {width="45%"}
+
+### Row {.tabset}
+
+```{r}
+#| title: "Total population"
+
+population_age_latest <- clean_function(population_data = population_variable,
+                                        remark = "Age",
+                                        factor_level = c("65+", "15-64", 
+                                                "0-14"))
+
+graph5 <- population_graph(population_age_latest, level = desired_level_total,
+                           variable = "Age") 
+
+
+
+girafe(ggobj = graph5,
+       options = list(width_svg = 8, height_svg = 6))
+
+```
+
+```{r}
+#| title: "Age Distribution"
+desired_level_age <- desired_level_function(population_age_latest, "0-14") 
+
+graph5 <- distribution_graph(population_age_latest, desired_level_age, "Age")
+  
+
+girafe(ggobj = graph5,
+       options = list(width_svg = 8, height_svg = 6))
+
+
+```
+
+## Column {width="55%"}
+
+```{r fig.height = 10, fig.width = 8}
+#| title: "Age population (Ratio)"
+
+# Calculate gender ratio by state and variable
+population_age_gender_ratio <- ratio_function(population_data = population_variable,
+                                              remark = "Age",
+                                              factor_level = c("65+", "15-64", "0-14")) 
+
+
+graph6 <- ratio_graph(population_age_gender_ratio, 
+                      variable = "Age")
+
+
+girafe(ggobj = graph6,
+       options = list(width_svg = 8, height_svg = 10))
+```
+
+# Demographics Marital Status {orientation="columns" scrolling="false"}
+
+## Column {width="45%"}
+
+### Row {.tabset}
+
+```{r}
+#| title: "Total population"
+
+population_marital_status_latest <- clean_function(population_data = population_variable, 
+                                                   remark = "Marital Status",
+                                                   factor_level = c("Unknown", "Widowed",
+                                                                    "Separatedordivorced",
+                                                                    "Nevermarried","Married"))
+
+graph6 <- population_graph(population_marital_status_latest, level = desired_level_total,
+                 variable = "Marital Status") 
+
+
+
+girafe(ggobj = graph6,
+       options = list(width_svg = 8, height_svg = 6))
+
+
+
+```
+
+```{r}
+#| title: Marital Status Distribution
+
+desired_level_marital_status <- desired_level_function(population_marital_status_latest,
+                                                       "Married") 
+
+graph7 <- distribution_graph(population_marital_status_latest, desired_level_marital_status, "Marital Status")
+  
+
+girafe(ggobj = graph7,
+       options = list(width_svg = 8, height_svg = 6))
+
+
+
+
+```
+
+## Column {width="55%"}
+
+```{r fig.height = 10, fig.width = 8}
+#| title: "Marital Status population (Ratio)"
+
+# Calculate gender ratio by state and variable
+population_marital_status_gender_ratio <- ratio_function(population_data = population_variable,
+                                                         remark = "Marital Status",
+                                                         factor_level = c("Unknown",
+                                                                          "Widowed",
+                                                                        "Separatedordivorced",
+                                                                        "Nevermarried", 
+                                                                        "Married")) 
+
+
+graph8 <- ratio_graph(population_marital_status_gender_ratio, 
+                      variable = "Marital Status")
+
+
+girafe(ggobj = graph8,
+       options = list(width_svg = 8, height_svg = 10))
+
+
+
+
+```
+
+# Demographics Religion {orientation="columns" scrolling="false"}
+
+## Column {width="45%"}
+
+### Row {.tabset}
+
+```{r}
+#| title: "Total population"
+
+
+population_religion_latest <- clean_function(population_data =  population_variable,
+                                             remark = "Religion",
+                                             factor_level =  c("Others", "Hinduism",
+                                             "Christianity", "Buddhism", "Islam"))
+
+graph9 <- population_graph(population_religion_latest, level = desired_level_total,
+                 variable = "Religion") 
+
+
+
+girafe(ggobj = graph9,
+        options = list(width_svg = 8, height_svg = 6))
+
+
+
+
+
+  
+```
+
+```{r}
+#| title: Religion Distribution
+
+desired_level_religion <- desired_level_function(population_religion_latest,
+                                                       "Islam") 
+
+graph10 <- distribution_graph(population_religion_latest, desired_level_religion, "Religion")
+  
+
+girafe(ggobj = graph10,
+       options = list(width_svg = 8, height_svg = 6))
+
+
+
+```
+
+## Column {width="55%"}
+
+```{r, fig.height = 10, fig.width = 8}
+#| title: "Religion population (Ratio)"
+
+# Calculate gender ratio by state and variable
+population_religion_gender_ratio <- ratio_function(population_data = population_variable,
+                                                   remark = "Religion",
+                                                 factor_level = c("Others", "Hinduism",
+                                             "Christianity", "Buddhism", "Islam")) 
+
+
+graph11 <- ratio_graph(population_religion_gender_ratio, 
+                      variable = "Religion")
+
+
+girafe(ggobj = graph11,
+       options = list(width_svg = 8, height_svg = 12))
+
+```
+
+
+# About
+
+## Row {.flow}
+
+::: card
+::: card-header
+About
+:::
+::: card-body
+📊 This dashboard presents population information about Malaysia, utilizing data from the 2020 Census by DOSM. It is created using [Quarto](https://quarto.org/docs/dashboards/) and **is not affiliated** with DOSM. The data used is available on the [DOSM publication page](https://www.dosm.gov.my/portal-main/publication).
+
+**Note:** The dashboard is designed for informational purposes only.
+
+As Quarto dashboard is a newly released tool, I am currently testing it out. The source code for this dashboard can be found here:
+
+[<i class="bi bi-file-code"></i> Repository](https://github.com/gadenbuie/mynorfolk-dash)
+
+
+:::
+:::

@@ -1,0 +1,137 @@
+state,variable,gender,value,remark
+Malaysia,total,female,15481168,Age
+Malaysia,0-14,female,3765717,Age
+Malaysia,15-64,female,10602091,Age
+Malaysia,65+,female,1113360,Age
+Malaysia,total,male,16966217,Age
+Malaysia,0-14,male,4006128,Age
+Malaysia,15-64,male,11905519,Age
+Malaysia,65+,male,1054570,Age
+Johor,total,female,1868363,Age
+Johor,0-14,female,470426,Age
+Johor,15-64,female,1286777,Age
+Johor,65+,female,111160,Age
+Johor,total,male,2141307,Age
+Johor,0-14,male,488884,Age
+Johor,15-64,male,1542286,Age
+Johor,65+,male,110137,Age
+Kedah,total,female,1044141,Age
+Kedah,0-14,female,260239,Age
+Kedah,15-64,female,694600,Age
+Kedah,65+,female,89302,Age
+Kedah,total,male,1087286,Age
+Kedah,0-14,male,278605,Age
+Kedah,15-64,male,729471,Age
+Kedah,65+,male,79210,Age
+Kelantan,total,female,892438,Age
+Kelantan,0-14,female,261065,Age
+Kelantan,15-64,female,570053,Age
+Kelantan,65+,female,61320,Age
+Kelantan,total,male,900063,Age
+Kelantan,0-14,male,276030,Age
+Kelantan,15-64,male,571240,Age
+Kelantan,65+,male,52793,Age
+Melaka,total,female,473486,Age
+Melaka,0-14,female,112517,Age
+Melaka,15-64,female,327241,Age
+Melaka,65+,female,33728,Age
+Melaka,total,male,524942,Age
+Melaka,0-14,male,121436,Age
+Melaka,15-64,male,373984,Age
+Melaka,65+,male,29522,Age
+Negeri Sembilan,total,female,576000,Age
+Negeri Sembilan,0-14,female,146294,Age
+Negeri Sembilan,15-64,female,388194,Age
+Negeri Sembilan,65+,female,41512,Age
+Negeri Sembilan,total,male,623974,Age
+Negeri Sembilan,0-14,male,155782,Age
+Negeri Sembilan,15-64,male,428440,Age
+Negeri Sembilan,65+,male,39752,Age
+Pahang,total,female,747144,Age
+Pahang,0-14,female,206115,Age
+Pahang,15-64,female,490923,Age
+Pahang,65+,female,50106,Age
+Pahang,total,male,844151,Age
+Pahang,0-14,male,218492,Age
+Pahang,15-64,male,575496,Age
+Pahang,65+,male,50163,Age
+Pulau Pinang,total,female,847851,Age
+Pulau Pinang,0-14,female,164394,Age
+Pulau Pinang,15-64,female,622613,Age
+Pulau Pinang,65+,female,60844,Age
+Pulau Pinang,total,male,892554,Age
+Pulau Pinang,0-14,male,185391,Age
+Pulau Pinang,15-64,male,652936,Age
+Pulau Pinang,65+,male,54227,Age
+Perak,total,female,1195803,Age
+Perak,0-14,female,277603,Age
+Perak,15-64,female,797953,Age
+Perak,65+,female,120247,Age
+Perak,total,male,1300238,Age
+Perak,0-14,male,301020,Age
+Perak,15-64,male,896169,Age
+Perak,65+,male,103049,Age
+Perlis,total,female,142540,Age
+Perlis,0-14,female,28005,Age
+Perlis,15-64,female,102114,Age
+Perlis,65+,female,12421,Age
+Perlis,total,male,142345,Age
+Perlis,0-14,male,30266,Age
+Perlis,15-64,male,102114,Age
+Perlis,65+,male,9965,Age
+Selangor,total,female,3283668,Age
+Selangor,0-14,female,755320,Age
+Selangor,15-64,female,2287124,Age
+Selangor,65+,female,241224,Age
+Selangor,total,male,3710755,Age
+Selangor,0-14,male,794241,Age
+Selangor,15-64,male,2675120,Age
+Selangor,65+,male,241394,Age
+Terengganu,total,female,561575,Age
+Terengganu,0-14,female,160605,Age
+Terengganu,15-64,female,367255,Age
+Terengganu,65+,female,33715,Age
+Terengganu,total,male,587865,Age
+Terengganu,0-14,male,168502,Age
+Terengganu,15-64,male,389824,Age
+Terengganu,65+,male,29539,Age
+Sabah,total,female,1638979,Age
+Sabah,0-14,female,440064,Age
+Sabah,15-64,female,1104376,Age
+Sabah,65+,female,94539,Age
+Sabah,total,male,1779806,Age
+Sabah,0-14,male,467070,Age
+Sabah,15-64,male,1215345,Age
+Sabah,65+,male,97391,Age
+Sarawak,total,female,1184116,Age
+Sarawak,0-14,female,260028,Age
+Sarawak,15-64,female,829100,Age
+Sarawak,65+,female,94988,Age
+Sarawak,total,male,1269561,Age
+Sarawak,0-14,male,280156,Age
+Sarawak,15-64,male,899641,Age
+Sarawak,65+,male,89764,Age
+W.P. Kuala Lumpur,total,female,923206,Age
+W.P. Kuala Lumpur,0-14,female,190977,Age
+W.P. Kuala Lumpur,15-64,female,666822,Age
+W.P. Kuala Lumpur,65+,female,65407,Age
+W.P. Kuala Lumpur,total,male,1058906,Age
+W.P. Kuala Lumpur,0-14,male,204845,Age
+W.P. Kuala Lumpur,15-64,male,789081,Age
+W.P. Kuala Lumpur,65+,male,64980,Age
+W.P. Labuan,total,female,46230,Age
+W.P. Labuan,0-14,female,11993,Age
+W.P. Labuan,15-64,female,32289,Age
+W.P. Labuan,65+,female,1948,Age
+W.P. Labuan,total,male,48890,Age
+W.P. Labuan,0-14,male,14020,Age
+W.P. Labuan,15-64,male,32822,Age
+W.P. Labuan,65+,male,2048,Age
+W.P. Putrajaya,total,female,55628,Age
+W.P. Putrajaya,0-14,female,20072,Age
+W.P. Putrajaya,15-64,female,34657,Age
+W.P. Putrajaya,65+,female,899,Age
+W.P. Putrajaya,total,male,53574,Age
+W.P. Putrajaya,0-14,male,21388,Age
+W.P. Putrajaya,15-64,male,31550,Age
+W.P. Putrajaya,65+,male,636,Age
