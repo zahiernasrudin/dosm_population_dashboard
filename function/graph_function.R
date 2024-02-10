@@ -25,6 +25,7 @@ population_graph <- function(population_data, level,
                          aes(tooltip = sprintf("%s: %s", variable, comma(value)))) +
     scale_fill_manual(values = color_palette,
                       breaks = rev(levels(population_data$variable))) +
+    guides(fill=guide_legend(ncol = 4)) +
     coord_flip() +
     scale_y_continuous(breaks= breaks, 
                        labels= labels) +
@@ -83,7 +84,7 @@ distribution_graph <- function(population_data, level, variable) {
     labs(x = "",
          y = "",
          title = paste( variable, "Population Distribution")) +
-    #guides(fill=guide_legend(ncol = 3)) +
+    guides(fill=guide_legend(ncol = 4)) +
     theme(# remove grid
       panel.grid = element_blank(),
       plot.title = element_text(hjust = 0.5),

@@ -3,6 +3,8 @@
 
 /*-- scss:rules --*/
 
+@import url('https://fonts.googleapis.com/css2?family=Merriweather');
+
 body {
   font-family: 'Merriweather', sans-serif;
   font-style: normal; 
@@ -41,6 +43,13 @@ a {
   font-family: 'Merriweather', sans-serif;
   font-style: normal; // Adjust the style as needed (normal, italic, etc.)
 }
+
+
+.card-header {
+    background-color: #3e3f3a;
+    color: rgba(255,255,255,.7);
+}
+
 
 
 
