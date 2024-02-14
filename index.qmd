@@ -123,7 +123,8 @@ Total population
 ## first graph
 graph1 <- population_state |>  
   ggplot(aes(x = year, y = population_total, group = state)) +
-  geom_line_interactive(linewidth = 0.8) +
+  geom_line_interactive(linewidth = 0.8,
+                        aes(tooltip = state)) +
   geom_point_interactive(aes(tooltip = label_graph, 
                                data_id = state),
                          size = 3) +
@@ -200,7 +201,7 @@ leaflet(malaysia2) %>%
 ### Row {.tabset}
 
 ```{r}
-#| title: "Total population"
+#| title: "Total"
 
 population_ethnic_latest <- clean_function(population_data =  population_variable,
                                            remark = "Ethnic",
@@ -221,7 +222,7 @@ girafe(ggobj = graph2,
 ```
 
 ```{r}
-#| title: "Ethnic Distribution"
+#| title: "Distribution"
 
 desired_level_ethnic <- desired_level_function(population_ethnic_latest, "Bumiputra") 
 
@@ -239,9 +240,9 @@ girafe(ggobj = graph4,
 ## Column {width="55%"}
 
 ```{r fig.height = 10, fig.width = 8}
-#| title: "Ethnic population (Ratio)"
+#| title: "GENDER RATIO"
 
-# Calculate gender ratio by state and variable
+# Calculate GENDER RATIO by state and variable
 population_ethnic_gender_ratio <- ratio_function(population_data = population_variable,
                                                  remark = "Ethnic",
                                                  factor_level = c("Others", "Indian", 
@@ -266,7 +267,7 @@ girafe(ggobj = graph3,
 ### Row {.tabset}
 
 ```{r}
-#| title: "Total population"
+#| title: "Total"
 
 population_age_latest <- clean_function(population_data = population_variable,
                                         remark = "Age",
@@ -284,7 +285,7 @@ girafe(ggobj = graph5,
 ```
 
 ```{r}
-#| title: "Age Distribution"
+#| title: "Distribution"
 desired_level_age <- desired_level_function(population_age_latest, "0-14") 
 
 graph5 <- distribution_graph(population_age_latest, desired_level_age, "Age")
@@ -299,9 +300,9 @@ girafe(ggobj = graph5,
 ## Column {width="55%"}
 
 ```{r fig.height = 10, fig.width = 8}
-#| title: "Age population (Ratio)"
+#| title: "GENDER RATIO"
 
-# Calculate gender ratio by state and variable
+# Calculate GENDER RATIO by state and variable
 population_age_gender_ratio <- ratio_function(population_data = population_variable,
                                               remark = "Age",
                                               factor_level = c("65+", "15-64", "0-14")) 
@@ -322,7 +323,7 @@ girafe(ggobj = graph6,
 ### Row {.tabset}
 
 ```{r}
-#| title: "Total population"
+#| title: "Total"
 
 population_marital_status_latest <- clean_function(population_data = population_variable, 
                                                    remark = "Marital Status",
@@ -343,7 +344,7 @@ girafe(ggobj = graph6,
 ```
 
 ```{r}
-#| title: Marital Status Distribution
+#| title: "Distribution"
 
 desired_level_marital_status <- desired_level_function(population_marital_status_latest,
                                                        "Married") 
@@ -362,9 +363,9 @@ girafe(ggobj = graph7,
 ## Column {width="55%"}
 
 ```{r fig.height = 10, fig.width = 8}
-#| title: "Marital Status population (Ratio)"
+#| title: "GENDER RATIO"
 
-# Calculate gender ratio by state and variable
+# Calculate GENDER RATIO by state and variable
 population_marital_status_gender_ratio <- ratio_function(population_data = population_variable,
                                                          remark = "Marital Status",
                                                          factor_level = c("Unknown",
@@ -393,7 +394,7 @@ girafe(ggobj = graph8,
 ### Row {.tabset}
 
 ```{r}
-#| title: "Total population"
+#| title: "Total"
 
 
 population_religion_latest <- clean_function(population_data =  population_variable,
@@ -417,7 +418,7 @@ girafe(ggobj = graph9,
 ```
 
 ```{r}
-#| title: Religion Distribution
+#| title: Distribution
 
 desired_level_religion <- desired_level_function(population_religion_latest,
                                                        "Islam") 
@@ -435,9 +436,9 @@ girafe(ggobj = graph10,
 ## Column {width="55%"}
 
 ```{r, fig.height = 10, fig.width = 8}
-#| title: "Religion population (Ratio)"
+#| title: "GENDER RATIO"
 
-# Calculate gender ratio by state and variable
+# Calculate GENDER RATIO by state and variable
 population_religion_gender_ratio <- ratio_function(population_data = population_variable,
                                                    remark = "Religion",
                                                  factor_level = c("Others", "Hinduism",
