@@ -375,7 +375,8 @@ population_marital_status_gender_ratio <- ratio_function(population_data = popul
                                                                         "Married")) 
 
 
-graph8 <- ratio_graph(population_marital_status_gender_ratio, 
+graph8 <- ratio_graph(population_marital_status_gender_ratio |> 
+                        filter(!is.nan(gender_ratio)), 
                       variable = "Marital Status")
 
 
